@@ -1,3 +1,5 @@
+<!-- The home page: should show the present events happening for HAkron -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,24 +10,39 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
+    <!-- Vue production version, optimized for size and speed -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    
     <link rel="stylesheet" href="style.css">
 </head>
+    
 <body>
+    <!-- This is where the header bar used for navigation should go -->
+    <nav id="headerbar">
+        <div id="headerlogo">
+          <span v-bind:title="message">
+            <img src="HAkron_Blue_Logo.png" alt="HAkron Logo" width="50" height="50">
+          </span>
+        </div>      
+    </nav>
+    
+    
+    
     <div class="logo">
     <img src="HAkron_Blue_Logo.png" alt="HAkron Logo" width="500" height="500">
     </div>
-<!-- button area for navigating to html pages for past, present, future>
+    <!-- button area for navigating to html pages for past, present, future>
        <!-- <a class="button" href="past.html">Past</a> -->
     <nav>
       <button>Past</button>
       <button id="present-button" class="active">Present</button>
       <button>Future</button>
     </nav>
-  
     
     <div class="alert alert-info alert-dismissable">
     <a href="#" class="close" data-dismiss="alert" aria-label="close">Hey thanks!</a>
     <strong>Hello!</strong> Welcome to HAkron's Club Page!
   </div>
 </body>
+    
 </html>
