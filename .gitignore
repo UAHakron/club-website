@@ -1,3 +1,4 @@
 # NEVER commit the node_modules
 node_modules/
-
+.DS_Stores
+Src/.DS_Stores

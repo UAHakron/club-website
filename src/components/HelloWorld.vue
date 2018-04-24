@@ -1,6 +1,6 @@
 <template>
-  <div class="hello">
-    <h1>Hello there</h1>
+  <div >
+    <h1>HAkron Home</h1>
   </div>
 </template>
 
@@ -32,8 +32,7 @@ li {
 a {
   color: #42b983;
 }
-
-#hello h1 {
+h1 {
   text-align: center;
   margin: 0.5em;
 }

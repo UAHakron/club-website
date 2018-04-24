@@ -1,16 +1,13 @@
 <template>
-<header>
-  <div class="header-container">
-    <router-link to="/" src="../assets/hakron_logo.png" 
-     alt="HAkron" class="logo" tag="img"/>
+<footer>
+  <div class="footer-container">
+
     <ul>
-      <router-link to="/faq" tag="li" class="faq">FAQ</router-link>
-      <router-link to="/about" tag="li">About&nbsp;us</router-link>
-      <router-link to="/schedule" tag="li">Schedule</router-link>
       <router-link to="/contact" tag="li">Contact</router-link>
+      <a tag="li" href="https://github.com/UAHakron/club-website">Improve the Website?</a>
     </ul>
   </div>
-</header>
+</footer>
 </template>
 
 <script>
@@ -23,16 +20,18 @@ export default {
 </script>
 
 <style scoped>
-header {
-  display: fixed;
-  top: 0;
+footer {
+  position: fixed;
   left: 0;
   right: 0;
+  bottom: 0;
+  width: 100%;
   height: 60px;
   background-color: #3990e6;
+  margin-bottom: 0;
 }
 
-.header-container {
+.footer-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -45,7 +44,7 @@ ul {
   align-items: center;
 }
 
-li {
+li, a {
   list-style-type: none;
   margin: 10px;
   padding: 0.5em;
@@ -53,6 +52,8 @@ li {
   color: white;
   font-weight: bold;
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.2);
+
+  text-decoration: none;
 }
 
 .logo {

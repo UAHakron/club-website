@@ -1,18 +1,18 @@
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 
-
 <template>
   <div id="app">
     <Header/>
-    <img width="25%" src="./assets/hakron_logo.png" class="pic">
+    <img width="15%" src="./assets/hakron_logo.png" class="pic">
     <router-view></router-view>
-  
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -22,7 +22,7 @@ export default {
   }
 };
 
-import Footer from "./components/Footer.vue";
+
 </script>
 
 

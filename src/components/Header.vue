@@ -1,8 +1,8 @@
 <template>
 <header>
   <div class="header-container">
-    <router-link to="/" src="../assets/hakron_logo.png" 
-     alt="HAkron" class="logo" tag="img"/>
+    <router-link to="/"><img id="logo" src="../assets/hakron_logo_smaller.png" alt="logo"></router-link>
+
     <ul>
       <router-link to="/faq" tag="li" class="faq">FAQ</router-link>
       <router-link to="/about" tag="li">About&nbsp;us</router-link>
@@ -55,9 +55,12 @@ li {
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.logo {
+#logo {
+  padding: 5%;
+  margin-left: 5%;
+  display: inline-block;
+  width: auto;
   height: 100%;
-  cursor: pointer;
 }
 
 .faq {
