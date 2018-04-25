@@ -4,7 +4,12 @@
 
     <ul>
       <router-link to="/contact" tag="li">Contact</router-link>
-      <a tag="li" href="https://github.com/UAHakron/club-website">Improve the Website?</a>
+      <a tag="li" href="https://github.com/UAHakron">Github</a>
+      <a tag="li" href="https://www.snapchat.com/add/uahakron">Snapchat</a>
+      <a tag="li" href="https://twitter.com/uahakron">Twitter</a>
+  
+      <a tag="li" href="https://www.facebook.com/hakron2017/">Facebook</a>
+
     </ul>
   </div>
 </footer>

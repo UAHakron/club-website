@@ -45,4 +45,12 @@ export default {
   margin: 0 auto;
   margin-top: 30px;
 }
+
+/*@media screen and (min-width: 768px) {
+  
+
+
+  
+}*/
+
 </style>

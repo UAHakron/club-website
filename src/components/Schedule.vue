@@ -26,8 +26,6 @@ h1 {
 	margin: 0 auto;
 }
 
-
-
 .calendar{
   position: relative;
   height: 0;
@@ -42,6 +40,7 @@ h1 {
   width: 100%;
   height: 100%;
   padding-bottom: 10%;
+  margin-bottom: 15px;
 }
 
 </style>
